@@ -37,3 +37,5 @@ Die als roter Ring dargestellte Komponente ist eine stationäre Induktionsspule.
 ### Systemzusammenfassung
 
 Im Betrieb wird der **Auftriebskörper** durch die statische Auftriebskraft beschleunigt. Das **magnetische Führungssystem** gewährleistet eine reibungsarme Bewegung. Die kinetische Energie wird über die **induktive Auskopplungsspule** und die finale **Energiewandler-Einheit** in elektrische Energie konvertiert.
+
+![Hybridgenerator Komponenten](https://raw.githubusercontent.com/NathaliaLietuvaite/Hybridgenerator-FreieEnergie/main/Hybridgenerator-Komponenten.png)
