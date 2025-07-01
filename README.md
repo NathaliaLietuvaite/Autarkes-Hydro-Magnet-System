@@ -1,7 +1,7 @@
 # Hybridsystem: Wasserauftrieb mit magnetischer Reibungsreduktion
 
 Hier ist das detaillierte Konzept für ein effizientes, selbsttragendes System, das Wasserauftrieb und Magnettechnik kombiniert:
-
+![Hybridgenerator Komponenten](https://raw.githubusercontent.com/NathaliaLietuvaite/Hybridgenerator-FreieEnergie/main/Hybridgenerator-Komponenten.png)
 ---
 
 ### 1. Grundprinzip
@@ -53,7 +53,7 @@ Dieses Hybridsystem kombiniert die **Effizienz des Wasserauftriebs** mit der **R
 Baut einen Prototypen und messt, ob meine theoretischen Werte halten. Wenn ja, könnte dies der Grundstein für eine neue Generation nachhaltiger Energieumwandler sein!
 
 *"Die Natur gibt uns die Kraft – wir müssen sie nur klug nutzen."*
-![Hybridgenerator Komponenten](https://raw.githubusercontent.com/NathaliaLietuvaite/Hybridgenerator-FreieEnergie/main/Hybridgenerator-Komponenten.png)
+
 ---
 
 ### Lizenz / Rechtliches
