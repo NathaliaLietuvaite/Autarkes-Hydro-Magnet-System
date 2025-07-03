@@ -58,14 +58,10 @@ Baut einen Prototypen und messt, ob meine theoretischen Werte halten. Wenn ja, k
 
 ### Lizenz / Rechtliches
 
-**Creative Commons BY-NC-SA 4.0**
+## Lizenz
+Distributed under the MIT License. See [LICENSE.txt](LICENSE.txt) for full text.
 
-* Frei nutzbar
-* Namensnennung: Nathalia Lietuvaite (Projektidee)
-* Keine kommerzielle Verwertung
-* Weitergabe nur unter gleichen Bedingungen
-
-**Verzicht auf Patent, Verzicht auf Profite, Aufforderung zur Weiterentwicklung.**
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
 ### Für wen?
 
