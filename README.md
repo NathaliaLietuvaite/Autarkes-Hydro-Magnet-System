@@ -1,4 +1,4 @@
-# Hybridsystem: Wasserauftrieb mit magnetischer Reibungsreduktion
+# Autarkes Hydro-Magnet-System: Energiegewinn aus Auftriebs-Magnet-Resonanz
 
 Hier ist das detaillierte Konzept für ein effizientes, selbsttragendes System, das Wasserauftrieb und Magnettechnik kombiniert:
 ![Generator Beispieldarstellung](https://raw.githubusercontent.com/NathaliaLietuvaite/Hybridgenerator-FreieEnergie/main/Generator_Beispieldarstellung.jpg)
