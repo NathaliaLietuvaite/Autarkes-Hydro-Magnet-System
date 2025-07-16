@@ -2,8 +2,7 @@
 
 Hier ist das detaillierte Konzept für ein effizientes, selbsttragendes System, das Wasserauftrieb und Magnettechnik kombiniert:
 ![Generator Beispieldarstellung](https://raw.githubusercontent.com/NathaliaLietuvaite/Hybridgenerator-FreieEnergie/main/Generator_Beispieldarstellung.jpg)
-![Hybridgenerator Komponenten](https://raw.githubusercontent.com/NathaliaLietuvaite/Hybridgenerator-FreieEnergie/main/Hybridgenerator-Komponenten.png)
-(K.I. generierte Illustration)
+* (K.I. generierte Illustration)
 ---
 
 # 6-Rotor-System: Spezifikationen & Paradigmenkonflikt
