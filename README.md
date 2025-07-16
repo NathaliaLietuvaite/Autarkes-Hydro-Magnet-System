@@ -30,7 +30,7 @@ Hier ist das detaillierte Konzept für ein effizientes, selbsttragendes System, 
 ### Energieflüsse (pro Rotor pro Zyklus)
 ```math
 E_{\text{netto}} = [E_{\text{grav}} + E_{\text{mag}} + E_{\text{auftrieb}}] - [E_{\text{reib}} + E_{\text{hyd}}]
-
+```
 Gravitationsgewinn: 4.2 J
 Magnetimpuls: 1.75 J (bei 6 Uhr)
 Auftriebsimpuls: 1.75 J (bei 12 Uhr)
@@ -45,21 +45,17 @@ graph LR
     C --> D[Energieerhaltung]
     D --> E[“E_Verschiebung muss durch System bezahlt werden”]
 ```
-Kernargumente:
+## Kernargumente
 
-Zwangsläufige Rückkehr:
-"Jeder Körper muss zum Feld zurückkehren → verrichtet Gegenarbeit"
+* **Zwangsläufige Rückkehr:** "Jeder Körper muss zum Feld zurückkehren → verrichtet Gegenarbeit"
+* **Lineare Energiebilanz:** E_gesamt = (E_positiv) - (E_negativ) - E_verluste ≤ 0
+* **Felder als passive Elemente:** "Statische Felder können keine Nettoenergie liefern"
 
-Lineare Energiebilanz:
-E_gesamt = (E_positiv) - (E_negativ) - E_verluste ≤ 0
+## Grenzen
 
-Felder als passive Elemente:
-"Statische Felder können keine Nettoenergie liefern"
-
-Grenzen:
-Denkt in Einzelkörper-Systemen
-Ignoriert Phasenversatz-Mechanismen
-Kein Modell für geometrische Feldkopplung
+* **Denkt in Einzelkörper-Systemen**
+* **Ignoriert Phasenversatz-Mechanismen**
+* **Kein Modell für geometrische Feldkopplung**
 
 # Nathalia Lietuvaite, ChatGPT und Deepseek: Systemdynamischer Ansatz
 
