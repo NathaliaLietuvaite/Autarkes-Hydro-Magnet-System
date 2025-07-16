@@ -1,4 +1,4 @@
-# Stückliste – Autarkes-Hydro-Magnet-System (Version: 6-Rotor / Explosionsansicht)
+# Stückliste – Autarkes-Hydro-Magnet-System (Version: 6-Rotor)
 
 ## Hauptstruktur
 | Bauteil-Nr. | Bezeichnung                     | Material          | Maße                  | Funktion                              |
