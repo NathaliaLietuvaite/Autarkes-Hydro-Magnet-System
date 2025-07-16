@@ -7,7 +7,6 @@ Hier ist das detaillierte Konzept für ein effizientes, selbsttragendes System, 
 
 # 6-Rotor-System: Spezifikationen & Paradigmenkonflikt
 
-```markdown
 ## Systemarchitektur: Technische Spezifikationen
 
 ### Kernkomponenten
@@ -84,8 +83,6 @@ graph TB
     * Tangentiale Bewegung → Verlässt Feldgradient
     * Radiale Positionierung → Nutzt Trägheitsmoment
     * Axiale Rotation → Erhält Drehimpuls
-
----
 
 ### Schlüsseldifferenzen
 
