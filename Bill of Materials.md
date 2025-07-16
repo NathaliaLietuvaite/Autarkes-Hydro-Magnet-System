@@ -1,4 +1,4 @@
-# Stückliste – AION-System (Version: 6-Rotor / Explosionsansicht)
+# Stückliste – Autarkes-Hydro-Magnet-System (Version: 6-Rotor / Explosionsansicht)
 
 ## Hauptstruktur
 | Bauteil-Nr. | Bezeichnung                     | Material          | Maße                  | Funktion                              |
