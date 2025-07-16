@@ -1,41 +1,101 @@
-# Technische Spezifikation der Hybridgenerator-Komponenten
-
-Dieses Dokument beschreibt die funktionalen Einheiten des Hybridgenerators. Das System nutzt das archimedische Prinzip in Synergie mit einem passiven magnetischen Führungssystem zur Umwandlung von potenzieller Energie in elektrische Energie.
-
----
-
-### 1. Energiewandler-Einheit (Generator)
-
-An der oberen Terminus des Steigrohrs ist eine elektromechanische Wandlereinheit positioniert. Ihre primäre Funktion ist die Konvertierung der translatorischen kinetischen Energie des Auftriebskörpers in elektrische Energie.
+# Technische Spezifikationen  
+**Systembezeichnung:** Autarkes Hydro-Magnet-System  
+**Funktionsprinzip:** Energiegewinn durch phasengetaktete Auftriebs-Magnet-Resonanz
 
 ---
 
-### 2. Steigrohr (Prozesskammer)
+## 1. Gehäuse und Struktur
+- **Gesamtdurchmesser:** 250 cm
+- **Zentralkörper (Hauptzylinder):**  
+  - Material: Acrylglas (transparent)  
+  - Durchmesser: 20 cm  
+  - Höhe: 250 cm  
+  - Umgebung: Vakuumkammer (~10⁻³ mbar)
 
-Das Steigrohr, gefertigt aus transparentem Acrylglas, fungiert als vertikale Prozesskammer. Es enthält das Arbeitsmedium (Wasser) und dient als Führungskanal für den Auftriebskörper. Die Transparenz des Materials ermöglicht eine visuelle Prozessüberwachung (VPM).
-
----
-
-### 3. Auftriebskörper
-
-Der Auftriebskörper ist eine hydrodynamisch optimierte Hohlkörper-Struktur. Basierend auf dem archimedischen Prinzip erzeugt er durch die Verdrängung des Arbeitsmediums eine Auftriebskraft, die größer ist als seine Gewichtskraft, was eine vertikale translatorische Bewegung initiiert.
-
----
-
-### 4. Magnetisches Führungssystem
-
-Entlang der Innenachse des Steigrohrs ist ein kontaktloses Führungssystem aus radial ausgerichteten Permanentmagnet-Ringen installiert. Dieses System erzeugt ein stabilisierendes Magnetfeld, das den ebenfalls magnetisierten Auftriebskörper zentriert. Hierdurch werden Reibungsverluste an der Rohrwand sowie hydrodynamische Widerstände minimiert, was die Systemeffizienz maßgeblich steigert.
-
----
-
-### 5. Induktive Auskopplungsspule
-
-Die als roter Ring dargestellte Komponente ist eine stationäre Induktionsspule. Gemäß dem Induktionsgesetz wird bei der Passage des magnetischen Auftriebskörpers eine elektrische Spannung in der Spule induziert. Dieses Subsystem dient der direkten, linearen Umwandlung von Bewegungsenergie in elektrische Energie.
+- **Rotorarme:**  
+  - Anzahl: 6 (symmetrisch radial angeordnet, 60° Abstand)  
+  - Länge: 100 cm  
+  - Durchmesser: variabel, typ. 5–8 cm  
+  - Material: Acrylglas, gefüllt mit niedrigviskoser Dielektrikumsflüssigkeit  
+  - Medium: Deionisiertes Wasser mit Antiturbulenz-Additiven  
 
 ---
 
-### Systemzusammenfassung
+## 2. Auftriebseinheit (Innenelement pro Rotorarm)
+- **Körper:** Strömungsoptimierte Auftriebskapsel  
+- **Masse:** 1 kg (variable Schwerpunktverlagerung intern)  
+- **Auftriebselement:** Wasserfüllung mit Dichtegradient  
+- **Magnetkern:** Neodym-Elemente (Position intern steuerbar)  
+- **Reibungsführung:** Wandnahe Neodym-Führung, nahezu reibungsfrei
 
-Im Betrieb wird der **Auftriebskörper** durch die statische Auftriebskraft beschleunigt. Das **magnetische Führungssystem** gewährleistet eine reibungsarme Bewegung. Die kinetische Energie wird über die **induktive Auskopplungsspule** und die finale **Energiewandler-Einheit** in elektrische Energie konvertiert.
+---
 
-![Hybridgenerator Komponenten](https://raw.githubusercontent.com/NathaliaLietuvaite/Hybridgenerator-FreieEnergie/main/Hybridgenerator-Komponenten.png)
+## 3. Rotornarbe & Lagerung
+- **Zentrallager:** Nahezu reibungslose Magnetschwebelagerung  
+- **Durchmesser:** 10 cm  
+- **Drehbereich:** 0–30 U/min (je nach Modus)  
+- **Geometrie:** Nabe erlaubt phasensynchrone Masseverlagerung zur Trägheitsoptimierung  
+- **Verstärkungsstruktur:** Optimiert für Sechsersymmetrie, gleichmäßige Momentverteilung
+
+---
+
+## 4. Impulszonen
+- **Positionen:**  
+  - **6 Uhr:** Axialer Impuls → Beschleunigung zur Nabe  
+  - **12 Uhr:** Radialer Impuls → Beschleunigung zum höchsten Punkt  
+
+- **Impulse:**  
+  - Art: Getaktete elektromagnetische Felder oder mechanisch synchronisierte Magnetkontakte  
+  - Dauer: ≤ 0,2 s pro Zyklus  
+  - Energie pro Impuls: ca. 1,75 J  
+  - Frequenz: 2 Impulse pro Umdrehung × 6 Rotoren = **12 Impulse/Zyklus**
+
+---
+
+## 5. Energiehaushalt (ideales System)
+- **Energieeintrag pro Zyklus:**  
+  - Auftrieb + Magnetimpuls (2× pro Rotor × 6 Rotoren): ~**21,0 J**  
+- **Friction Losses:**  
+  - Gesamtverlust durch Lager + Mediumreibung: ≤ **6,0 J**  
+- **Nettoenergie verfügbar:**  
+  - ~**15,0 J pro Zyklus** (im optimalen Betrieb)  
+- **Energieauskopplung:**  
+  - Methode: Ringförmiger Induktionsgenerator (Kupferwicklung außen)  
+  - Wirkprinzip: Rotierendes Feld erzeugt Wechselspannung über Magnetkerne
+
+---
+
+## 6. Kontroll- und Sensorsystem
+- **Steuerung:**  
+  - Echtzeit-Phasencontroller (FPGA-basiert)  
+  - Synchronisierung der Impulsaktivierung an 6/12 Uhr
+- **Sensorik:**  
+  - Feldstärkesensoren  
+  - Rotationspositionierung  
+  - Massenschwerpunktdetektion (inertialsensorgestützt)
+
+---
+
+## 7. Visualisierung & Design
+- **Feldlinienanzeige:**  
+  - LED-basierte Flux-Vektoren (blau)  
+- **Indikatoren:**  
+  - Mikroblasen-Tracer in den Flüssigkeitskammern  
+  - Pulslicht an 6/12 Uhr bei Impulsaktivierung  
+- **Optional:**  
+  - Holografisches Energieströmungsdisplay (für Präsentationsbetrieb)
+
+---
+
+## 8. Sicherheits- & Testumgebung
+- **Betriebsumgebung:**  
+  - Vakuum- oder Niederdruck-Kammer  
+  - Temperaturstabil: ±1 K  
+- **Zugänglichkeit:**  
+  - Vollständig abnehmbares Außengehäuse für Wartung  
+- **Testlaufzeit:**  
+  - 24h Dauerbetrieb mit Impulsfrequenzüberwachung
+
+---
+
+> ⚠️ *Diese Spezifikation beschreibt ein hochdynamisches, resonanzbasiertes Mehrrotorsystem. Energieextraktion und Effizienz hängen entscheidend von der Taktsteuerung und der phasenrichtigen Ausführung aller Feldimpulse ab.*
