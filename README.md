@@ -1,6 +1,6 @@
 # Autarkes Hydro-Magnet-System: Energiegewinn aus Auftriebs-Magnet-Resonanz
 
-Hier ist das detaillierte Konzept für ein effizientes, selbsttragendes System, das Wasserauftrieb und Magnettechnik kombiniert:
+Ein selbsttaktender Rotor zur Energiekopplung aus Auftrieb und Magnetfeldern
 ![Generator Beispieldarstellung](https://raw.githubusercontent.com/NathaliaLietuvaite/Hybridgenerator-FreieEnergie/main/Generator_Beispieldarstellung.jpg)
 * (K.I. generierte Illustration)
 ---
