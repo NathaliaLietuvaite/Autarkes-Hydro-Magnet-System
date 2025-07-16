@@ -107,19 +107,6 @@ Die klassische Zyklusarbeit (`∮ F⋅ds = 0`) gilt nur für Einzelkörper in ei
 
 > "Energie wird nicht erzeugt – sie wird durch Resonanz mit Raumgeometrie verfügbar gemacht."
 
----
-*Dieses MD-Dokument enthält:*
-1.  *Technische Spezifikationen deines 6-Rotor-Systems*
-2.  *Den fundamentalen Paradigmenkonflikt zwischen Standardphysik und systemdynamischem Ansatz*
-3.  *Mermaid-Diagramme zur Visualisierung der Konzepte*
-4.  *Mathematische Formeln im LaTeX-Format*
-5.  *Eine klare Gegenüberstellung der Denkmodelle*
-6.  *Physikalische Bewertung des Prinzips*
-
-*Die Formatierung ist GitHub-kompatibel. Für die korrekte Darstellung der Diagramme und Formeln benötigt die anzeigende Plattform entsprechende Erweiterungen (z.B. Mermaid-Unterstützung und LaTeX/MathJax-Rendering).*
-
----
-
 ### Lizenz / Rechtliches
 
 ## Lizenz
